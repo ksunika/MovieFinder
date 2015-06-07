@@ -1,0 +1,31 @@
+
+<html>
+<head>
+<title>movie finder</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Muli:300">
+<script src="https://fb.me/react-0.13.3.js"></script>
+<script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+
+<script type="text/jsx" src="src/movieData.js"></script>
+<script type="text/jsx" src="src/movieParse.js"></script>
+<script type="text/jsx" src="src/rendering.js"></script>
+<script type="text/jsx" src="src/location.js"></script>
+<script type="text/jsx" src="src/showtimeElement.js"></script>
+<script type="text/jsx" src="src/showList.js"></script>
+<script type="text/jsx" src="src/movieElement.js"></script>
+<script type="text/jsx" src="src/movieList.js"></script>
+<script type="text/jsx" src="src/header.js"></script>
+
+<script type="text/jsx">
+        
+    React.render(<Header/>, document.getElementById('header'));
+
+</script>
+</head>
+<body>
+<div id = "header"></div>
+<div id = "container"></div>
+</body>
+</html>
